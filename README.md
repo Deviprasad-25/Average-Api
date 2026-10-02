@@ -14,9 +14,9 @@ Make sure the following are installed:
 - npm
 - Git
 
-You can verify the installation using:
+# You can verify the installation using:
 
-1. Open your project
+# 1. Open your project
 
 Make sure the VS Code terminal shows:
 
@@ -26,13 +26,13 @@ If not:
 
 cd C:\Users\HP\average-api
 
-2. Install dependencies
+# 2. Install dependencies
 
 Only needed after cloning/downloading the project:
 
 npm install
 
-3. Start the API server
+# 3. Start the API server
 
 Run:
 
@@ -47,7 +47,7 @@ Average API is running on http://localhost:5000
 
 Keep this terminal running.
 
-4. Open a second terminal
+# 4. Open a second terminal
 
 In VS Code:
 
@@ -80,7 +80,8 @@ node client/client.js 30
 You should get:
 
 Average: 20
-5. Run the tests
+
+# 5. Run the tests
 
 In the second terminal:
 
@@ -91,6 +92,7 @@ You should see:
 ✔ should calculate the average of all submitted numbers
 ✔ should reject a request when number is missing
 ✔ should reject a non-numeric value
+
 
 Terminal 1
 ───────────
